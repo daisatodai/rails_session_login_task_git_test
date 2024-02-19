@@ -2,14 +2,23 @@ ja:
   activerecord:
     models:
       task: タスク
-    attributes:
+      user: ユーザー
+    attributes:  #関連する、カラムと一緒の認識で今はOK。
       task:
         title: タイトル
         content: 内容
+      user:
+        name: 名前
+        email: メールアドレス
+        password: パスワード
+        password_confirm: パスワード（確認）
+        confirmation: とパスワードの入力が一致しません
   errors:
     format: "%{attribute}%{message}"
     messages:
       blank: を入力してください
+      invalid: が無効です
+      too_short: は6文字以上で入力してください
   helpers:
     submit:
       create: 登録する
@@ -35,4 +44,13 @@ ja:
     update:
       updated: タスクを更新しました
     destroy:
-      destroyed: タスクを削除しました
+      destroyed: タスクを削除しました  
+  users:
+    new:
+      title: アカウント登録ページ
+    edit:
+      title: アカウント編集ページ
+    show:
+      title: アカウント詳細ページ
+
+
