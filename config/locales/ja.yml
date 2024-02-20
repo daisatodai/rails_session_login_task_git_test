@@ -48,9 +48,12 @@ ja:
   users:
     new:
       title: アカウント登録ページ
+      error_explanation: 
+      password: パスワード
+      password_confirm: パスワード（確認）
+      confirmation: とパスワードの入力が一致しません
     edit:
       title: アカウント編集ページ
-      
     show:
       title: アカウント詳細ページ
 
