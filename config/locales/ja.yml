@@ -56,5 +56,9 @@ ja:
       title: アカウント編集ページ
     show:
       title: アカウント詳細ページ
+    update:
+      updated: アカウントを更新しました
+    create:
+      created: アカウントを登録しました
 
 
