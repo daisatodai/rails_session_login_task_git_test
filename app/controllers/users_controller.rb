@@ -24,6 +24,21 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end  
 
+  def update
+    @user = User.find(params[:id])
+    if @user.update(user_params)
+      redirect_to user_path(@user), notice: t('.updated')
+    else
+      render :edit
+    end
+  end
+
+  def destroy
+    @user = User.find(params[:id])
+    @user.destroy
+    redirect_to new_session_path
+  end
+
 
   private
 
