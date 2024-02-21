@@ -3,7 +3,7 @@ ja:
     models:
       task: タスク
       user: ユーザー
-    attributes:  #関連する、カラムと一緒の認識で今はOK。
+    attributes:  
       task:
         title: タイトル
         content: 内容
