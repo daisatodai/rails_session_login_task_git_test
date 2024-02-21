@@ -11,7 +11,7 @@ ja:
         name: 名前
         email: メールアドレス
         password: パスワード
-        password_confirmation: パスワード(確認)
+        password_confirmation: パスワード（確認）
         confirmation: とパスワードの入力が一致しません
   errors:
     format: "%{attribute}%{message}"
@@ -19,7 +19,7 @@ ja:
       blank: を入力してください
       invalid: が無効です
       too_short: は6文字以上で入力してください
-      taken: はすでに存在します
+      taken: はすでに使用されています
       confirmation: とパスワードの入力が一致しません
   helpers:
     submit:
